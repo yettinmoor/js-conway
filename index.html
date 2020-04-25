@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Conway's Game of Life</title>
+  <link rel='stylesheet' href='styles/style.css'>
+</head>
+
+<body>
+  <h1>Conway's Game of Life</h1>
+  <div id='canvasContainer'>
+    <canvas id='canvas' width='600' height='600'></canvas>
+  </div>
+  <div id='settingsContainer'>
+    <p>
+      <button type='button' id='btnGenerate'>Generate</button>
+      <button type='button' id='btnStep'>Step</button>
+      <button type='button' id='btnToggle'>Play</button>
+    </p>
+    <p>
+      Resolution:<br>
+      <input type='range' min='5' max='200' value='50' id='resolutionSlider'>
+    </p>
+    <p>
+      Initial Population:<br>
+      <input type='range' min='0' max='100' value='30' id='populationSlider'>
+    </p>
+  </div>
+  <script src='scripts/conway.js'></script>
+  <script src='scripts/settings.js'></script>
+</body>
+
+</html>

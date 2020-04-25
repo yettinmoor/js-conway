@@ -1,0 +1,23 @@
+body {
+  background: #ffffff;
+}
+
+#canvas {
+  border-style: dotted;
+  border-width: 1px;
+}
+
+#canvasContainer {
+  margin: auto;
+  float: left;
+}
+
+#settingsContainer {
+  text-align: center;
+  padding: 30px;
+  float: left;
+}
+
+#settingsContainer button {
+  width: 80px;
+}
